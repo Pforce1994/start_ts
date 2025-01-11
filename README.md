@@ -6,3 +6,6 @@ STEP:2
 2.npx run [file-name]
 
 สามารถแก้ไข file ใน vs code ได้เลย
+
+การสร้าง file typescript
+tsc --init
