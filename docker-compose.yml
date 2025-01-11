@@ -1,0 +1,19 @@
+services:
+  test-node:
+    image: node-ts
+    volumes:
+      - .:/app
+    ports: 
+      - "3000:3000"
+
+  # my-sql:
+  #   image: mysql
+  #   environment:
+  #     MYSQL_ROOT_PASSWORD: 12345678
+  #     MYSQL_DATABASE: root
+  #   ports:
+  #     - "3306:3306"  
+
+  
+
+
